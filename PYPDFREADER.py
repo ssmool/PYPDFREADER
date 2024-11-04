@@ -20,8 +20,8 @@ def text_to_speech(text, output_path):
 
 # Exemplo de uso
 def streamAudioMP3(pdf, audio_file)
-	pdf_path = 'ibm_python.pdf'
-	output_audio_path = 'ibm_pyton.mp3'
+	pdf_path = pdf
+	output_audio_path = audio_file
 	r = PdfReader(pdf_path)
 	text = ''
 	for page in r.pages:
