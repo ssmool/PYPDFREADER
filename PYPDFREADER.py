@@ -1,5 +1,5 @@
 # Importando as bibliotecas necessárias
-#import PyPDF2
+#import PdfReader
 from pypdf import PdfReader
 from gtts import gTTS
 
