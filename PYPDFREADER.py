@@ -26,4 +26,4 @@ def streamAudioMP3(pdf, audio_file)
 	text = ''
 	for page in r.pages:
 		text += page.extract_text() + "\n"
-	text_to_speech(texto, output_audio_path)
+	text_to_speech(text, output_audio_path)
